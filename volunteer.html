@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer | Helping Hands NGO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2>💚 Helping Hands NGO</h2>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="work.html">Our Work</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="blog.html">News</a>
+        <a href="contact.html">Contact</a>
+        <a href="donate.html">Donate</a>
+    </nav>
+</header>
+
+<section class="volunteer-hero">
+    <h1>Become a Volunteer</h1>
+    <p>Join our hands and help us make a better world.</p>
+</section>
+
+<section class="volunteer-section">
+    <h2>Volunteer Registration Form</h2>
+    <p>Fill out the form below to join our NGO.</p>
+
+    <form id="volunteerForm">
+
+        <input type="text" id="volName"
+        placeholder="Your Full Name" required>
+
+        <input type="email" id="volEmail"
+        placeholder="Your Email Address" required>
+
+        <input type="tel" id="volPhone"
+        placeholder="Mobile Number" pattern="[0-9]{10}"
+        maxlength="10" required>
+
+        <input type="number" id="volAge"
+        placeholder="Your Age" min="18" required>
+
+        <select id="volInterest" required>
+            <option value="">Select Your Interest</option>
+            <option>Teaching Children</option>
+            <option>Helping Poor People</option>
+            <option>Environment Protection</option>
+            <option>Food Distribution</option>
+            <option>Other Activities</option>
+        </select>
+
+        <textarea id="volReason"
+        placeholder="Why do you want to join us?"
+        rows="5" required></textarea>
+<button type="submit" id="registerBtn">
+    Register Now
+</button>
+    </form>
+</section>
+
+<footer>
+    <h3>💚 Helping Hands NGO</h3>
+    <p>Together, We Can Make a Difference.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
